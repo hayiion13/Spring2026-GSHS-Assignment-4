@@ -5,6 +5,7 @@ def tokenize(text: str) -> list[str]:
 
 def compute_tf(document: str) -> dict:
     tf = {}
+
     tokens = tokenize(document)
     total = len(tokens)
 
